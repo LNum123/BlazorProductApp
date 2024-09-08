@@ -1,0 +1,21 @@
+﻿@page "/"
+@inherits BlazorProduct.Web.Pages.ProductListBase
+
+<h3>Product List</h3>
+<input type="checkbox" id="showFooter" @bind="ShowFooter"/>
+<label for="showFooter">Show Footer</label>
+@if(Products == null){
+    <div class="spinner"></div>
+}
+else
+{
+<div class="card-deck">
+    @foreach (var product in Products)
+    {
+       <DisplayProduct Product="product" ShowFooter="ShowFooter"
+           OnProductDelete="ProductDelete"
+           ></DisplayProduct>
+    }
+</div>
+}
+

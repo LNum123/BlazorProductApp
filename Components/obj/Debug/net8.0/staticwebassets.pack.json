@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\KR1234\\Desktop\\BlazorProductApp\\Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PComponents.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PComponents.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\KR1234\\Desktop\\BlazorProductApp\\Components\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\KR1234\\Desktop\\BlazorProductApp\\Components\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PComponents.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PComponents.props",
+      "PackagePath": "build\\PComponents.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PComponents.props",
+      "PackagePath": "buildMultiTargeting\\PComponents.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PComponents.props",
+      "PackagePath": "buildTransitive\\PComponents.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

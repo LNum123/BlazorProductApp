@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xi+8/StHgaA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KR1234\\Desktop\\BlazorProductApp\\BlazorProduct.Models\\BlazorProduct.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KR1234\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

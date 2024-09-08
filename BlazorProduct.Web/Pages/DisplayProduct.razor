@@ -1,0 +1,23 @@
+﻿@inherits DisplayProductBase
+@using Components
+
+<div class="card m-3">
+    <div class="card-header">
+        <h3 class="text-center">@Product.Name</h3>
+    </div>
+    <div class="mt-2 mx-auto">
+        <p>@Product.Model</p>
+    </div>
+
+    @if(ShowFooter)
+    {
+        <div class="card-footer text-center">
+            <a href="@($"productdetails/{Product.Id}")" class="btn btn-primary m-1">View</a>
+            <a href="@($"editproduct/{Product.Id}")" class="btn btn-primary m-1">Edit</a>
+            <button type="button" class="btn btn-danger m-1" @onclick="Delete_Click">Delete</button>
+        </div>
+    }
+</div>
+
+@* <Confirm @ref="DeleteConfirmation" ConfirmationChanged="ConfirmDelete_Click">
+</Confirm> *@

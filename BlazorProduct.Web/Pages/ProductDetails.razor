@@ -1,0 +1,32 @@
+﻿@page "/productdetails/{id}"
+@page "/productdetails"
+@inherits ProductDetailsBase
+
+@if(Product == null){
+    <div class="spinner"></div>
+}else{
+    <div class="row justify-content-center m-3">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h1>@Product.Name @Coordinates</h1>
+                </div>
+
+                <div class="card-body text-center" >
+                    <h4>Product ID : @(Product.Id == null? "N/A" : Product.Id)</h4>
+                    <h4>Model : @(Product.Model == null ? "N/A" : Product.Model) </h4>
+                    <h4>Part Number : @(Product.PartNumber == null ? "N/A" : Product.PartNumber)</h4>
+                    <h4>Quantity: @(Product.Quantity == null ? "0" : Product.Quantity)</h4>
+                    <h4>Price: @(Product.Price == null ? "0" : Product.Price)</h4>
+                    <p>Date Time Captured: @(Product.DateTimeCaptured == null ? "1/1/1990" : Product.DateTimeCaptured)</p>
+                    <button class="btn btn-primary" @onclick="@Hide_Footer">@HideButton</button>
+                </div>
+                <div class="card-footer text-center @CssClass">
+                    <a href="/" class="btn btn-primary">Back</a>
+                    <a href="@($"editproduct/{Product.Id}")" class="btn btn-primary">Edit</a>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}

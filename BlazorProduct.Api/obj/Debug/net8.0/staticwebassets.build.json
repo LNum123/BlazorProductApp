@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bAQxxt+U+LKXdX4vyo1ukmcKP8W/TOh8p6I2K11TdGc=",
+  "Source": "BlazorProduct.Api",
+  "BasePath": "_content/BlazorProduct.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

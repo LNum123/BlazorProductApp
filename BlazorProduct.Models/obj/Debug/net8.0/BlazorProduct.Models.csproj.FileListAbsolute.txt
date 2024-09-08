@@ -1,0 +1,11 @@
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\bin\Debug\net8.0\BlazorProduct.Models.deps.json
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\bin\Debug\net8.0\BlazorProduct.Models.dll
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\bin\Debug\net8.0\BlazorProduct.Models.pdb
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\obj\Debug\net8.0\BlazorProduct.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\obj\Debug\net8.0\BlazorProduct.Models.AssemblyInfoInputs.cache
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\obj\Debug\net8.0\BlazorProduct.Models.AssemblyInfo.cs
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\obj\Debug\net8.0\BlazorProduct.Models.csproj.CoreCompileInputs.cache
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\obj\Debug\net8.0\BlazorProduct.Models.dll
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\obj\Debug\net8.0\refint\BlazorProduct.Models.dll
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\obj\Debug\net8.0\BlazorProduct.Models.pdb
+C:\Users\KR1234\Desktop\BlazorProductApp\BlazorProduct.Models\obj\Debug\net8.0\ref\BlazorProduct.Models.dll
